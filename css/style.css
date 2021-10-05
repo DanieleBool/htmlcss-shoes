@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Source Code Pro', monospace;
     font-weight: bolder;
 }
 
@@ -73,16 +73,15 @@ nav a:last-child{
 /* immagini */
 
 .img{
-
-}
-
-.container{
-    width: 30%;
-    height: 500px;
-}
-
-.container h1{
+    display: block;
+    margin: 0px auto;
     text-align: center;
+}
+
+.box h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
 }
 
 /* colori scrittura */
