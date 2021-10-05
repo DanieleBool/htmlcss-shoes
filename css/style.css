@@ -51,19 +51,19 @@ nav a:last-child{
 
 /* pagine */
 
-.pag1{
+#pag1{
     background-color: red;
     width: 100%;
     height: 100vh;
 }
 
-.pag2{
+#pag2{
     background-color: green;
     width: 100%;
     height: 100vh;
 }
 
-.pag3{
+#pag3{
     background-color: yellow;
     width: 100%;
     height: 100vh;
