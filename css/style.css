@@ -1,0 +1,82 @@
+/* commons */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+
+main{
+    position: relative;
+}
+
+/* numeri delle pagine */
+
+.block{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    position: fixed;
+    margin-top: 15px;
+    margin-right: 5px;
+
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+} 
+
+.block a{
+    width: 20px;
+    height: 20px;
+    font-size: 8px;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    line-height: 20px;
+    vertical-align: middle;   
+    border-radius: 50%;
+    background-color: white;
+    text-decoration: none;
+    float: left;
+    margin-right: 20px;
+}
+
+.block a:last-child{
+    margin-right: none;
+}
+
+/* pagine */
+
+.pag1{
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+}
+
+.pag2{
+    background-color: green;
+    width: 100%;
+    height: 100vh;
+}
+
+.pag3{
+    background-color: yellow;
+    width: 100%;
+    height: 100vh;
+}
+
+/* colori scrittura */
+
+.yell{
+    color: yellow;
+}
+
+.gre{
+    color: green;
+}
+
