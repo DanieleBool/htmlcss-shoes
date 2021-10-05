@@ -21,13 +21,8 @@ nav{
     position: fixed;
     top: 15px;
     right: 5px;
+    z-index:1 /* priorita al nav (nonostante il position:relative delle pagine, che altrimenti coprirebbero il nav) */
 }
-
-.clearfix::after{
-    content: '';
-    display: table;
-    clear: both;
-} 
 
 nav a{
     width: 20px;
@@ -52,10 +47,11 @@ nav a:last-child{
 
 /* pagine */
 
-#pag1{
+#pag1{  /* position-relative quì mi copre i numeri-link */
     background-color: red;
     width: 100%;
     height: 100vh;
+
 }
 
 #pag2{
@@ -83,6 +79,21 @@ nav a:last-child{
     text-transform: uppercase;
     font-size: 60px;
 }
+
+/* crea problemi */
+#pag1, #pag2, #pag3{
+    position: relative;
+}
+
+.box{
+    position: absolute;
+    width: 49%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%)
+}
+/* /crea problemi */
 
 /* colori scrittura */
 
